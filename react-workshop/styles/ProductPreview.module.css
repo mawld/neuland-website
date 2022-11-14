@@ -1,0 +1,19 @@
+.product {
+  border: 1px dotted lightgray;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+
+.title {
+  float: left;
+  font-weight: bold;
+}
+
+.price {
+  float: right;
+}
+
+.rating {
+  clear: both;
+}
