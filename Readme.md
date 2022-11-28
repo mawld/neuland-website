@@ -1,4 +1,4 @@
-## Setup Git
+## Setup Git (SSH Key)
 create ssh key on your computer
 
 ssh-keygen (press enter twice)
@@ -10,6 +10,15 @@ go to .ssh folder and copy whole content of id_rsa.pub
 Settings > SSH key > New SSH Key > insert copied text 
 
 get more information here: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+## Setup Git (VS Code authentication)
+If you want to use the integrated GitHub authentication for VS Code, just go to the Source Control Tab on the left and click install Git:
+
+![image](https://user-images.githubusercontent.com/39043890/204318674-5ba0d1b2-86ee-4cad-acb5-89f3ad983280.png)
+
+After a VS Code restart, click clone repository and then login to your GitHub account:
+
+![image](https://user-images.githubusercontent.com/39043890/204318765-be5d2259-e108-4141-b1d6-05f05e0276e3.png)
 
 
 ## Setup Enviroment
