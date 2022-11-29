@@ -10,14 +10,14 @@ return (
 		<NavLink to="/about" activeStyle>
 			About
 		</NavLink>
-		<NavLink to="/contact" activeStyle>
-			Contact Us
+		<NavLink to="/members" activeStyle>
+			Members
 		</NavLink>
-		<NavLink to="/blogs" activeStyle>
-			Blogs
+		<NavLink to="/join" activeStyle>
+			Join Us
 		</NavLink>
-		<NavLink to="/sign-up" activeStyle>
-			Sign Up
+		<NavLink to="/projects" activeStyle>
+			Projects
 		</NavLink>
 		</NavMenu>
 	</Nav>
