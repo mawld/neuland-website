@@ -1,3 +1,25 @@
+## Setup Git
+create ssh key on your computer
+
+ssh-keygen (press enter twice)
+
+add ssh public key to github:
+
+go to .ssh folder and copy whole content of id_rsa.pub
+
+Settings > SSH key > New SSH Key > insert copied text 
+
+get more information here: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+## Setup Enviroment
+
+install NodeJs (Linux: mit apt-get windows download via browser)
+Restart Laptop/PC
+
+npm install react next react-router
+npm run build
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
