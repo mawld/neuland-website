@@ -23,7 +23,7 @@ return (
 		<Route path='/blogs' element={<Blogs/>} />
 		<Route path='/members' element={<SignUp/>} />
 		<Route path='/About' element={<About/>} />
-		<Route path='/Veranstaltungen' elements={<Veranstaltungen/>} />
+		<Route path='/Veranstaltungen' element={<Veranstaltungen/>} />
 	</Routes>
 	</Router>
 );

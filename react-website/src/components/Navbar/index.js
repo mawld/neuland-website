@@ -6,9 +6,6 @@ const Navbar = () => {
 return (
 	<>
 	<Nav>
-
-
-
 		<NavMenu>
 		<NavLink to="/about" activeStyle>
 			About
