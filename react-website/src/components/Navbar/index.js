@@ -6,6 +6,9 @@ const Navbar = () => {
 return (
 	<>
 	<Nav>
+
+
+
 		<NavMenu>
 		<NavLink to="/about" activeStyle>
 			About
@@ -18,6 +21,9 @@ return (
 		</NavLink>
 		<NavLink to="/projects" activeStyle>
 			Projects
+		</NavLink>
+		<NavLink to="/Veranstaltungen" activeStyle>
+			Events
 		</NavLink>
 		</NavMenu>
 	</Nav>
