@@ -15,7 +15,7 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route exact path='/' element={<Home />} />
+		<Route exact path='/' element={<Home/>} />
 		<Route path='/projects' element={<About/>} />
 		<Route path='/join' element={<Contact/>} />
 		<Route path='/blogs' element={<Blogs/>} />

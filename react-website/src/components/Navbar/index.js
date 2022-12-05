@@ -8,19 +8,19 @@ return (
 	<Nav>
 		<NavMenu>
 		<NavLink to="/about" activeStyle>
-			About
+			About<i class="fa fa-times"></i>
 		</NavLink>
 		<NavLink to="/members" activeStyle>
-			Members
+			Members<i class="fa fa-times"></i>
 		</NavLink>
 		<NavLink to="/join" activeStyle>
-			Join Us
+			Join Us<i class="fa fa-times"></i>
 		</NavLink>
 		<NavLink to="/projects" activeStyle>
-			Projects
+			Projects<i class="fa fa-times"></i>
 		</NavLink>
 		</NavMenu>
-	</Nav>
+	</Nav>	
 	</>
 );
 };
