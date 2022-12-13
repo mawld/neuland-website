@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/navbar.js';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import Home from './pages';
@@ -10,6 +10,7 @@ import SignUp from './pages/members';
 import Contact from './pages/join';
 import About from './pages/about';
 import Veranstaltungen from './pages/Veranstaltungen';
+import './index.css';
 
 
 function App() {
