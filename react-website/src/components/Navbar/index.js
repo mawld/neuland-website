@@ -19,6 +19,9 @@ return (
 		<NavLink to="/projects" activeStyle>
 			Projects<i class="fa fa-times"></i>
 		</NavLink>
+		<NavLink to="/Veranstaltungen" activeStyle>
+			Events
+		</NavLink>
 		</NavMenu>
 	</Nav>	
 	</>
