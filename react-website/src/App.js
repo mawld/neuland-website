@@ -17,13 +17,8 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-<<<<<<< HEAD
-		<Route exact path='/' element={<Home/>} />
-		<Route path='/projects' element={<About/>} />
-=======
 		<Route exact path='/' element={<Home />} />
 		<Route path='/projects' element={<Projects/>} />
->>>>>>> 856b3e916de466d242e53d22ed3a347741ca4d79
 		<Route path='/join' element={<Contact/>} />
 		<Route path='/blogs' element={<Blogs/>} />
 		<Route path='/members' element={<SignUp/>} />
