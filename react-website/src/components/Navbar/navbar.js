@@ -8,7 +8,7 @@ return (
 	<>
 	<div className={Navbar.nav}>
 		<div className={Navbar.navmenu}>
-			<Link href="../../pages/about" className={Navbar.navlink}>
+			<Link href="/about" className={Navbar.navlink}>
 				<a>About<i className="fa fa-times"></i></a>
 			</Link>
 			<Link href="/members" className={Navbar.navlink}>
