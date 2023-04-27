@@ -11,8 +11,7 @@ return (
 			About
 		</NavLink>
 		<NavLink to="/members" activeStyle>
-			Members
-		</NavLink>
+			Member</NavLink>
 		<NavLink to="/join" activeStyle>
 			Join Us
 		</NavLink>
